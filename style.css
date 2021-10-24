@@ -1,0 +1,27 @@
+body {
+    background-color: gray;
+}
+
+h1 {
+    color: white;
+    background-color: indianred;
+    padding: 30px;
+    margin-top: 20%;
+    border: 8px solid black;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.contaner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1:hover {
+    color: black;
+    background-color: indigo;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+}
